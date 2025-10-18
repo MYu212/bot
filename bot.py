@@ -61,7 +61,7 @@ def send_dars():
     bot.send_message(2035595180, message, parse_mode="Markdown")
 
 # Har kuni 05:30 da dars yuborish
-schedule.every().day.at("21:46").do(send_dars)
+schedule.every().day.at("18:30").do(send_dars)
 
 bot.send_message(2035595180, "✅ Darslik Magistr bot ishga tushdi! Har kuni 18:00 da yangi mavzu yuboriladi.")
 
